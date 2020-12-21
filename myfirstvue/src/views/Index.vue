@@ -5,13 +5,14 @@
                 <router-link to="/">
                     <b-icon icon="arrow-bar-up"></b-icon>
                 </router-link> |
-                <router-link to="/query">Query</router-link> |
-                <router-link to="/about">About</router-link>
+                <router-link to="/query">{{ $t('menu.query') }}</router-link> |
+                <router-link to="/about">{{ $t('menu.about') }}</router-link>
             </b-col>
             <b-col col="1">
-                <b-dropdown id="dropdown_lan" text="">
-                    <b-dropdown-item>中文</b-dropdown-item>
-                    <b-dropdown-item>English</b-dropdown-item>
+                <b-dropdown id="dropdown_lang" text="切壞語系">
+                    <b-dropdown-item data-lang="zhtw" @click="setLang">{{$t('dropdownLang.zhtw')}}</b-dropdown-item>
+                    <b-dropdown-item data-lang="zhcn" @click="setLang">{{$t('dropdownLang.zhcn')}}</b-dropdown-item>
+                    <b-dropdown-item data-lang="en" @click="setLang">{{$t('dropdownLang.en')}}</b-dropdown-item>
                 </b-dropdown>
             </b-col>
         </b-row>
@@ -24,7 +25,17 @@
         name: 'index',
         components: {
 
-        }
+        },
+        methods: {
+            setActiveLanguage(lang) {
+                localStorage.setItem('footmark-lang', lang)
+            },
+            setLang(evt) {
+                const lang = evt.target.dataset.lang
+                this.setActiveLanguage(lang)
+                return history.go(0)
+            },
+        }    
     }
 </script>
 <style lang="scss">

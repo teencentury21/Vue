@@ -1,0 +1,11 @@
+{
+    "menu":{
+        "query":"查詢",
+        "about":"關於"
+    },
+    "dropdownLang":{
+        "en":"英文",
+        "zhtw":"中文",
+        "zhcn":"簡中"
+    }
+}

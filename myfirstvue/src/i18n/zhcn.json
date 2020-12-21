@@ -1,0 +1,11 @@
+{
+    "menu":{
+        "query":"查询",
+        "about":"关于"
+    },
+    "dropdownLang":{
+        "en":"英语",
+        "zhtw":"中文",
+        "zhcn":"简中"
+    }
+}
