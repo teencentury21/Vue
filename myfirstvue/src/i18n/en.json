@@ -4,7 +4,7 @@
         "about":"About"
     },
     "dropdownLang":{
-        "dropdownLang":"Lang",
+        "title":"Lang",
         "en":"English",
         "zhtw":"Taiwanese",
         "zhcn":"Chinese"
