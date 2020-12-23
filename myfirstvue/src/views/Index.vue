@@ -9,6 +9,7 @@
                 <router-link to="/about">{{ $t('menu.about') }}</router-link>
             </b-col>
             <b-col col="1">
+                <!-- <b-dropdown id="dropdown_lang" v-bind:text="$t('dropdownLang.title')"> -->
                 <b-dropdown id="dropdown_lang" v-bind:text="$t('dropdownLang.title')">
                     <b-dropdown-item data-lang="zhtw" @click="setLang">{{$t('dropdownLang.zhtw')}}</b-dropdown-item>
                     <b-dropdown-item data-lang="zhcn" @click="setLang">{{$t('dropdownLang.zhcn')}}</b-dropdown-item>
