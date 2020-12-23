@@ -2,56 +2,67 @@
   <div class="firstQuery">
     <h1>This is query page</h1>
 
+    <img v-bind:src="avatar_url" class="circular--square" alt="avatar" />
+    <a v-bind:href="html_url" target="_blank"><img src="@/assets/github.png" style="width:50px;display: inline-block;" /></a>
+    <span style="font-weight: bold;font-size: large;"> {{ name}} </span><br>
+    <span> {{location}} </span>
+    <hr>
+    <b-table striped hover :items="items" :fields="fields"></b-table>
   </div>
 </template>
 <script>
+  import Vue from 'vue'
   import axios from 'axios';
+  import VueAxios from 'vue-axios'
+
+  Vue.use(VueAxios, axios)
+  
   export default {
-    name: 'firstQuery',
-    data() {
-      return {
-        info: "",
-        formdata: {
-          var13: "1",
-          var14: "2",
-          var15: "",
-          var16: "",
-          var17: "",
-        },
-        postreturnval: ""
+    data(){
+      return{
+        // Note 'isActive' is left out and will not appear in the return table
+        fields: [{
+          key: 'id',
+        }, {
+          key: 'name',
+        }, {
+          key: 'company',
+        }, {
+          key: 'phone',
+        }, {
+          key: 'email',
+        }],
+        items:[]
       }
     },
-    methods: {
-      PostForm: function () {
-
-        let _this = this
-
-        //==============Post=======================
-        axios.post('api/setting/httppostmethodtest', _this.formdata).then((response) => {
-          _this.postreturnval = response.data.data
-        }).catch((error) => {
-          console.log(error.description);
-          //_this.$ii_message('error', error.description)
-        })
-
-      }
-    },
-    mounted() {
-      let _this = this
-
-      //================Get===========================
-      axios.get('http://localhost:58865/api/setting/httpgetmethodtest/1395T3079901', {
-        headers: {
-          ContentType: 'text/plain',
-        }
-      }).then((response) => {
-        _this.info = response.data.data
-      }).catch((error) => {
-        console.log(error.description);
-        //_this.$ii_message('error', error.description)
-      })
-
-
+    mounted: async function(){
+      let result = await axios.get('https://jsonplaceholder.typicode.com/users');
+      console.log(result)
+      result.data.array.forEach(element => {
+        console.log(element)
+        let itemObj={};
+        itemObj.id=element.id;
+        itemObj.name=element.name;
+        itemObj.company=element.company.name;
+        itemObj.phone=element.phone;
+        itemObj.email=element.email;
+        this.items.push(itemObj);        
+      });
     }
   }
 </script>
+
+<style scoped>
+    img {
+        vertical-align: middle;
+        width: 200px;
+        display: inherit;
+        margin: 0 auto;
+    }
+    .circular--square {
+        border-top-left-radius: 50% 50%;
+        border-top-right-radius: 50% 50%;
+        border-bottom-right-radius: 50% 50%;
+        border-bottom-left-radius: 50% 50%;
+    }
+</style>
