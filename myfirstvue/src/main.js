@@ -15,29 +15,7 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
 // I18n
-import VueI18n from 'vue-i18n'
-//import lan from './i18n/lan'
-
-import en from './i18n/en.json'
-import zhtw from './i18n/zhtw.json'
-import zhcn from './i18n/zhcn.json'
-
-Vue.use(VueI18n)
-let locale='zhtw'
-if(localStorage.getItem('footmark-lang')){
-  locale=localStorage.getItem('footmark-lang');
-  store.commit('setLang',locale);
-}else{
-  store.commit('setLang',locale);
-}
-const i18n=new VueI18n({
-  locale:locale,
-  messages:{
-    'zhtw':zhtw,
-    'zhcn':zhcn,
-    'en':en
-  }
-})
+import i18n from './i18n/i18n'
 
 Vue.config.productionTip = false
 
