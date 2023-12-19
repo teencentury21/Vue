@@ -1,0 +1,121 @@
+{
+    "data":
+    [
+        {
+            "id": "F14",
+            "area_name": "板橋區"
+        },
+        {
+            "id": "F05",
+            "area_name": "三重區"
+        },
+        {
+            "id": "F18",
+            "area_name": "中和區"
+        },
+        {
+            "id": "F33",
+            "area_name": "永和區"
+        },
+        {
+            "id": "F01",
+            "area_name": "新莊區"
+        },
+        {
+            "id": "F07",
+            "area_name": "新店區"
+        },
+        {
+            "id": "F17",
+            "area_name": "樹林區"
+        },
+        {
+            "id": "F16",
+            "area_name": "鶯歌區"
+        },
+        {
+            "id": "F15",
+            "area_name": "三峽區"
+        },
+        {
+            "id": "F27",
+            "area_name": "淡水區"
+        },
+        {
+            "id": "F28",
+            "area_name": "汐止區"
+        },
+        {
+            "id": "F21",
+            "area_name": "瑞芳區"
+        },
+        {
+            "id": "F19",
+            "area_name": "土城區"
+        },
+        {
+            "id": "F04",
+            "area_name": "蘆洲區"
+        },
+        {
+            "id": "F03",
+            "area_name": "五股區"
+        },
+        {
+            "id": "F06",
+            "area_name": "泰山區"
+        },
+        {
+            "id": "F02",
+            "area_name": "林口區"
+        },
+        {
+            "id": "F09",
+            "area_name": "深坑區"
+        },
+        {
+            "id": "F08",
+            "area_name": "石碇區"
+        },
+        {
+            "id": "F10",
+            "area_name": "坪林區"
+        },
+        {
+            "id": "F30",
+            "area_name": "三芝區"
+        },
+        {
+            "id": "F31",
+            "area_name": "石門區"
+        },
+        {
+            "id": "F32",
+            "area_name": "八里區"
+        },
+        {
+            "id": "F22",
+            "area_name": "平溪區"
+        },
+        {
+            "id": "F23",
+            "area_name": "雙溪區"
+        },
+        {
+            "id": "F24",
+            "area_name": "貢寮區"
+        },
+        {
+            "id": "F25",
+            "area_name": "金山區"
+        },
+        {
+            "id": "F26",
+            "area_name": "萬里區"
+        },
+        {
+            "id": "F11",
+            "area_name": "烏來區"
+        }
+    ]
+}

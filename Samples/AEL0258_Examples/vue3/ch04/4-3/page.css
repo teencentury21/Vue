@@ -1,0 +1,15 @@
+#app {
+    padding:1rem;
+}
+
+
+div.form-item {
+    width: 50%;
+    max-width: 400px;
+    float: left;
+}
+
+div.form-item input {
+    width: calc(100% - 90px);
+    float: right;
+}

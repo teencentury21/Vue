@@ -1,0 +1,93 @@
+{
+    "data":
+    [
+        {
+            "id": "A",
+            "city_name": "臺北市"
+        },
+        {
+            "id": "B",
+            "city_name": "臺中市"
+        },
+        {
+            "id": "C",
+            "city_name": "基隆市"
+        },
+        {
+            "id": "D",
+            "city_name": "臺南市"
+        },
+        {
+            "id": "E",
+            "city_name": "高雄市"
+        },
+        {
+            "id": "F",
+            "city_name": "新北市"
+        },
+        {
+            "id": "G",
+            "city_name": "宜蘭縣"
+        },
+        {
+            "id": "H",
+            "city_name": "桃園市"
+        },
+        {
+            "id": "I",
+            "city_name": "嘉義市"
+        },
+        {
+            "id": "J",
+            "city_name": "新竹縣"
+        },
+        {
+            "id": "K",
+            "city_name": "苗栗縣"
+        },
+        {
+            "id": "M",
+            "city_name": "南投縣"
+        },
+        {
+            "id": "N",
+            "city_name": "彰化縣"
+        },
+        {
+            "id": "O",
+            "city_name": "新竹市"
+        },
+        {
+            "id": "P",
+            "city_name": "雲林縣"
+        },
+        {
+            "id": "Q",
+            "city_name": "嘉義縣"
+        },
+        {
+            "id": "T",
+            "city_name": "屏東縣"
+        },
+        {
+            "id": "U",
+            "city_name": "花蓮縣"
+        },
+        {
+            "id": "V",
+            "city_name": "臺東縣"
+        },
+        {
+            "id": "W",
+            "city_name": "金門縣"
+        },
+        {
+            "id": "X",
+            "city_name": "澎湖縣"
+        },
+        {
+            "id": "Z",
+            "city_name": "連江縣"
+        }
+    ]
+}

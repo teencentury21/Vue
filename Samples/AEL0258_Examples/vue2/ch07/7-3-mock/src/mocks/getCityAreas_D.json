@@ -1,0 +1,153 @@
+{
+    "data":
+    [
+        {
+            "id": "D09",
+            "area_name": "新營區"
+        },
+        {
+            "id": "D10",
+            "area_name": "鹽水區"
+        },
+        {
+            "id": "D12",
+            "area_name": "白河區"
+        },
+        {
+            "id": "D11",
+            "area_name": "柳營區"
+        },
+        {
+            "id": "D13",
+            "area_name": "後壁區"
+        },
+        {
+            "id": "D14",
+            "area_name": "東山區"
+        },
+        {
+            "id": "D15",
+            "area_name": "麻豆區"
+        },
+        {
+            "id": "D16",
+            "area_name": "下營區"
+        },
+        {
+            "id": "D17",
+            "area_name": "六甲區"
+        },
+        {
+            "id": "D18",
+            "area_name": "官田區"
+        },
+        {
+            "id": "D19",
+            "area_name": "大內區"
+        },
+        {
+            "id": "D20",
+            "area_name": "佳里區"
+        },
+        {
+            "id": "D25",
+            "area_name": "學甲區"
+        },
+        {
+            "id": "D21",
+            "area_name": "西港區"
+        },
+        {
+            "id": "D22",
+            "area_name": "七股區"
+        },
+        {
+            "id": "D23",
+            "area_name": "將軍區"
+        },
+        {
+            "id": "D24",
+            "area_name": "北門區"
+        },
+        {
+            "id": "D26",
+            "area_name": "新化區"
+        },
+        {
+            "id": "D27",
+            "area_name": "善化區"
+        },
+        {
+            "id": "D28",
+            "area_name": "新市區"
+        },
+        {
+            "id": "D29",
+            "area_name": "安定區"
+        },
+        {
+            "id": "D30",
+            "area_name": "山上區"
+        },
+        {
+            "id": "D36",
+            "area_name": "玉井區"
+        },
+        {
+            "id": "D37",
+            "area_name": "楠西區"
+        },
+        {
+            "id": "D38",
+            "area_name": "南化區"
+        },
+        {
+            "id": "D31",
+            "area_name": "左鎮區"
+        },
+        {
+            "id": "D32",
+            "area_name": "仁德區"
+        },
+        {
+            "id": "D33",
+            "area_name": "歸仁區"
+        },
+        {
+            "id": "D34",
+            "area_name": "關廟區"
+        },
+        {
+            "id": "D35",
+            "area_name": "龍崎區"
+        },
+        {
+            "id": "D39",
+            "area_name": "永康區"
+        },
+        {
+            "id": "D01",
+            "area_name": "東區"
+        },
+        {
+            "id": "D02",
+            "area_name": "南區"
+        },
+        {
+            "id": "D04",
+            "area_name": "北區"
+        },
+        {
+            "id": "D06",
+            "area_name": "安南區"
+        },
+        {
+            "id": "D07",
+            "area_name": "安平區"
+        },
+        {
+            "id": "D08",
+            "area_name": "中西區"
+        }
+    ]
+}

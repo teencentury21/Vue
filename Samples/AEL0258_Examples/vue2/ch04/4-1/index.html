@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>範例4-1 - 匯率換算</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./page.css">
+</head>
+
+<body>
+
+    <div id="app">
+        台幣：<input type="text" v-model="ntd"><br/>
+        <ul>
+            <li>美金：{{usd}}</li>
+            <li>日元：{{jpn}}</li>
+        </ul>
+    </div>
+
+    <!-- Vue.js 2.x -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <!-- Vue.js 主程式 -->
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>

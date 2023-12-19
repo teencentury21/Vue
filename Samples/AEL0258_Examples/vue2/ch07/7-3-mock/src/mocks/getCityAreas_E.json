@@ -1,0 +1,157 @@
+{
+    "data":
+    [
+        {
+            "id": "E01",
+            "area_name": "鹽埕區"
+        },
+        {
+            "id": "E02",
+            "area_name": "鼓山區"
+        },
+        {
+            "id": "E03",
+            "area_name": "左營區"
+        },
+        {
+            "id": "E04",
+            "area_name": "楠梓區"
+        },
+        {
+            "id": "E05",
+            "area_name": "三民區"
+        },
+        {
+            "id": "E06",
+            "area_name": "新興區"
+        },
+        {
+            "id": "E07",
+            "area_name": "前金區"
+        },
+        {
+            "id": "E08",
+            "area_name": "苓雅區"
+        },
+        {
+            "id": "E09",
+            "area_name": "前鎮區"
+        },
+        {
+            "id": "E10",
+            "area_name": "旗津區"
+        },
+        {
+            "id": "E11",
+            "area_name": "小港區"
+        },
+        {
+            "id": "E12",
+            "area_name": "鳳山區"
+        },
+        {
+            "id": "E13",
+            "area_name": "林園區"
+        },
+        {
+            "id": "E14",
+            "area_name": "大寮區"
+        },
+        {
+            "id": "E15",
+            "area_name": "大樹區"
+        },
+        {
+            "id": "E16",
+            "area_name": "大社區"
+        },
+        {
+            "id": "E17",
+            "area_name": "仁武區"
+        },
+        {
+            "id": "E18",
+            "area_name": "鳥松區"
+        },
+        {
+            "id": "E19",
+            "area_name": "岡山區"
+        },
+        {
+            "id": "E20",
+            "area_name": "橋頭區"
+        },
+        {
+            "id": "E21",
+            "area_name": "燕巢區"
+        },
+        {
+            "id": "E22",
+            "area_name": "田寮區"
+        },
+        {
+            "id": "E23",
+            "area_name": "阿蓮區"
+        },
+        {
+            "id": "E24",
+            "area_name": "路竹區"
+        },
+        {
+            "id": "E25",
+            "area_name": "湖內區"
+        },
+        {
+            "id": "E26",
+            "area_name": "茄萣區"
+        },
+        {
+            "id": "E27",
+            "area_name": "永安區"
+        },
+        {
+            "id": "E28",
+            "area_name": "彌陀區"
+        },
+        {
+            "id": "E29",
+            "area_name": "梓官區"
+        },
+        {
+            "id": "E30",
+            "area_name": "旗山區"
+        },
+        {
+            "id": "E31",
+            "area_name": "美濃區"
+        },
+        {
+            "id": "E32",
+            "area_name": "六龜區"
+        },
+        {
+            "id": "E33",
+            "area_name": "甲仙區"
+        },
+        {
+            "id": "E34",
+            "area_name": "杉林區"
+        },
+        {
+            "id": "E35",
+            "area_name": "內門區"
+        },
+        {
+            "id": "E36",
+            "area_name": "茂林區"
+        },
+        {
+            "id": "E37",
+            "area_name": "桃源區"
+        },
+        {
+            "id": "E38",
+            "area_name": "那瑪夏區"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "data":
+    [
+        {
+            "id": "V01",
+            "area_name": "臺東市"
+        },
+        {
+            "id": "V02",
+            "area_name": "成功鎮"
+        },
+        {
+            "id": "V03",
+            "area_name": "關山鎮"
+        },
+        {
+            "id": "V04",
+            "area_name": "卑南鄉"
+        },
+        {
+            "id": "V09",
+            "area_name": "鹿野鄉"
+        },
+        {
+            "id": "V10",
+            "area_name": "池上鄉"
+        },
+        {
+            "id": "V07",
+            "area_name": "東河鄉"
+        },
+        {
+            "id": "V08",
+            "area_name": "長濱鄉"
+        },
+        {
+            "id": "V06",
+            "area_name": "太麻里鄉"
+        },
+        {
+            "id": "V05",
+            "area_name": "大武鄉"
+        },
+        {
+            "id": "V11",
+            "area_name": "綠島鄉"
+        },
+        {
+            "id": "V13",
+            "area_name": "海端鄉"
+        },
+        {
+            "id": "V12",
+            "area_name": "延平鄉"
+        },
+        {
+            "id": "V15",
+            "area_name": "金峰鄉"
+        },
+        {
+            "id": "V14",
+            "area_name": "達仁鄉"
+        },
+        {
+            "id": "V16",
+            "area_name": "蘭嶼鄉"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "data":
+    [
+        {
+            "id": "K01",
+            "area_name": "苗栗市"
+        },
+        {
+            "id": "K02",
+            "area_name": "苑裡鎮"
+        },
+        {
+            "id": "K03",
+            "area_name": "通霄鎮"
+        },
+        {
+            "id": "K09",
+            "area_name": "竹南鎮"
+        },
+        {
+            "id": "K10",
+            "area_name": "頭份市"
+        },
+        {
+            "id": "K12",
+            "area_name": "後龍鎮"
+        },
+        {
+            "id": "K16",
+            "area_name": "卓蘭鎮"
+        },
+        {
+            "id": "K15",
+            "area_name": "大湖鄉"
+        },
+        {
+            "id": "K04",
+            "area_name": "公館鄉"
+        },
+        {
+            "id": "K05",
+            "area_name": "銅鑼鄉"
+        },
+        {
+            "id": "K14",
+            "area_name": "南庄鄉"
+        },
+        {
+            "id": "K08",
+            "area_name": "頭屋鄉"
+        },
+        {
+            "id": "K06",
+            "area_name": "三義鄉"
+        },
+        {
+            "id": "K07",
+            "area_name": "西湖鄉"
+        },
+        {
+            "id": "K11",
+            "area_name": "造橋鄉"
+        },
+        {
+            "id": "K13",
+            "area_name": "三灣鄉"
+        },
+        {
+            "id": "K17",
+            "area_name": "獅潭鄉"
+        },
+        {
+            "id": "K18",
+            "area_name": "泰安鄉"
+        }
+    ]
+}

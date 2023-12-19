@@ -1,0 +1,77 @@
+{
+    "data":
+    [
+        {
+            "id": "Q12",
+            "area_name": "太保市"
+        },
+        {
+            "id": "Q02",
+            "area_name": "朴子市"
+        },
+        {
+            "id": "Q03",
+            "area_name": "布袋鎮"
+        },
+        {
+            "id": "Q04",
+            "area_name": "大林鎮"
+        },
+        {
+            "id": "Q05",
+            "area_name": "民雄鄉"
+        },
+        {
+            "id": "Q06",
+            "area_name": "溪口鄉"
+        },
+        {
+            "id": "Q07",
+            "area_name": "新港鄉"
+        },
+        {
+            "id": "Q08",
+            "area_name": "六腳鄉"
+        },
+        {
+            "id": "Q09",
+            "area_name": "東石鄉"
+        },
+        {
+            "id": "Q10",
+            "area_name": "義竹鄉"
+        },
+        {
+            "id": "Q11",
+            "area_name": "鹿草鄉"
+        },
+        {
+            "id": "Q13",
+            "area_name": "水上鄉"
+        },
+        {
+            "id": "Q14",
+            "area_name": "中埔鄉"
+        },
+        {
+            "id": "Q15",
+            "area_name": "竹崎鄉"
+        },
+        {
+            "id": "Q16",
+            "area_name": "梅山鄉"
+        },
+        {
+            "id": "Q17",
+            "area_name": "番路鄉"
+        },
+        {
+            "id": "Q18",
+            "area_name": "大埔鄉"
+        },
+        {
+            "id": "Q20",
+            "area_name": "阿里山鄉"
+        }
+    ]
+}

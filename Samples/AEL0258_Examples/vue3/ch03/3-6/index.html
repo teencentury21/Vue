@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>範例3-6 方塊動動動</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./page.css">
+</head>
+
+<body>
+
+    <div id="app">
+        <input
+            class="item"
+            value="移動我"
+            @keydown.down="moveY(10)"
+            @keydown.up="moveY(-10)"
+            @keydown.left="moveX(-10)"
+            @keydown.right="moveX(10)"
+            :style="{ top: `${top}px`, left: `${left}px` }"
+        />
+    </div>
+
+    <!-- Vue.js 3.x -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.33/dist/vue.global.js"></script>
+    <!-- Vue.js 主程式 -->
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>

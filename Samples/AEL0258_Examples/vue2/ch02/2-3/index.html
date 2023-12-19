@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example 2-3 表單元件資料綁定</title>
+    <meta charset="utf-8">
+    <link href="./page.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!-- 文字方塊 - 使用 v-bind 綁定至 value -->
+        <input type="text" v-bind:value="value1"><br/>
+        <!-- 文字方塊 - 使用 v-bind 縮寫綁定至 value -->
+        <input type="text" :value="value2">
+    </div>
+
+    <!-- Vue.js 2.x -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <!-- Vue.js 主程式 -->
+    <script type="text/javascript" src="./app.js"></script>
+</body>

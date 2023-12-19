@@ -1,0 +1,14 @@
+#app {
+    padding:3rem;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background: orange;
+    border: 2px #999 solid;
+    text-align: center;
+    top: 40px;
+    left: 40px;
+    position: absolute;
+}

@@ -1,0 +1,85 @@
+{
+    "data":
+    [
+        {
+            "id": "P01",
+            "area_name": "斗六市"
+        },
+        {
+            "id": "P02",
+            "area_name": "斗南鎮"
+        },
+        {
+            "id": "P03",
+            "area_name": "虎尾鎮"
+        },
+        {
+            "id": "P04",
+            "area_name": "西螺鎮"
+        },
+        {
+            "id": "P05",
+            "area_name": "土庫鎮"
+        },
+        {
+            "id": "P06",
+            "area_name": "北港鎮"
+        },
+        {
+            "id": "P07",
+            "area_name": "古坑鄉"
+        },
+        {
+            "id": "P08",
+            "area_name": "大埤鄉"
+        },
+        {
+            "id": "P09",
+            "area_name": "莿桐鄉"
+        },
+        {
+            "id": "P10",
+            "area_name": "林內鄉"
+        },
+        {
+            "id": "P11",
+            "area_name": "二崙鄉"
+        },
+        {
+            "id": "P12",
+            "area_name": "崙背鄉"
+        },
+        {
+            "id": "P13",
+            "area_name": "麥寮鄉"
+        },
+        {
+            "id": "P14",
+            "area_name": "東勢鄉"
+        },
+        {
+            "id": "P15",
+            "area_name": "褒忠鄉"
+        },
+        {
+            "id": "P16",
+            "area_name": "臺西鄉"
+        },
+        {
+            "id": "P17",
+            "area_name": "元長鄉"
+        },
+        {
+            "id": "P18",
+            "area_name": "四湖鄉"
+        },
+        {
+            "id": "P19",
+            "area_name": "口湖鄉"
+        },
+        {
+            "id": "P20",
+            "area_name": "水林鄉"
+        }
+    ]
+}

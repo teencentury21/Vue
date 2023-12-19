@@ -1,0 +1,22 @@
+body {
+    color: #333;
+    padding: 1rem;
+    width: 100%;
+    border: 1px #333 solid;
+}
+
+div {
+    margin-top: 1rem;
+}
+
+#app {
+    padding: 1rem;
+    width: 80%;
+    border: 1px #666 solid;
+}
+
+.ref-example {
+    padding: 1rem;
+    width: 80%;
+    border: 1px #999 solid;
+}

@@ -1,0 +1,57 @@
+{
+    "data":
+    [
+        {
+            "id": "M01",
+            "area_name": "南投市"
+        },
+        {
+            "id": "M02",
+            "area_name": "埔里鎮"
+        },
+        {
+            "id": "M03",
+            "area_name": "草屯鎮"
+        },
+        {
+            "id": "M04",
+            "area_name": "竹山鎮"
+        },
+        {
+            "id": "M05",
+            "area_name": "集集鎮"
+        },
+        {
+            "id": "M06",
+            "area_name": "名間鄉"
+        },
+        {
+            "id": "M07",
+            "area_name": "鹿谷鄉"
+        },
+        {
+            "id": "M08",
+            "area_name": "中寮鄉"
+        },
+        {
+            "id": "M09",
+            "area_name": "魚池鄉"
+        },
+        {
+            "id": "M10",
+            "area_name": "國姓鄉"
+        },
+        {
+            "id": "M11",
+            "area_name": "水里鄉"
+        },
+        {
+            "id": "M12",
+            "area_name": "信義鄉"
+        },
+        {
+            "id": "M13",
+            "area_name": "仁愛鄉"
+        }
+    ]
+}

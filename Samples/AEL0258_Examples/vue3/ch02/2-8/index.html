@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example 2-8 是不是真的喵咪？</title>
+    <meta charset="utf-8">
+    <link href="./page.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <div
+            class="img-container"
+            v-for="(image, index) in imageList"
+            v-bind:key="index"
+        >
+            <!-- 圖片名稱 -->
+            {{ image.name }}<br/>
+            <!-- v-if/v-else 文字顯示判斷 -->
+            <span v-if="image.is_real_cat === true">有實際的貓，秀美喵照吧！</span>
+            <span v-else-if="image.is_cat_pic === true">有貓的圖片</span>
+            <span v-else>裡面沒有貓</span>
+            <br/>
+            <!-- v-if 圖片顯示判斷 -->
+            <img v-bind:src="image.path" v-if="image.is_real_cat" />
+        </div>
+    </div>
+
+    <!-- Vue.js 3.x -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.33/dist/vue.global.js"></script>
+    <!-- Vue.js 主程式 -->
+    <script type="text/javascript" src="./app.js"></script>
+</body>

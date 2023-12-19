@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example 2-9 $el 與 $refs 操作</title>
+    <meta charset="utf-8">
+    <link href="./page.css" rel="stylesheet">
+</head>
+<body>
+    這裡是HTML頁面內容
+    <div id="app">
+        這裡是 $el 範圍內<br/>
+        寬度：{{ el.width }}<br/>
+        高度：{{ el.height }}
+        <div ref="ref-example" class="ref-example">
+            這裡是 $refs['ref-example'] 範圍內<br/>
+            寬度：{{ ref.width }}<br/>
+            高度：{{ ref.height }}
+        </div>
+    </div>
+
+    <!-- Vue.js 2.x -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <!-- Vue.js 主程式 -->
+    <script type="text/javascript" src="./app.js"></script>
+</body>

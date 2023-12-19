@@ -1,0 +1,13 @@
+#app {
+    padding:1rem;
+}
+
+div {
+    width: 80%;
+    max-width: 400px;
+}
+
+div input {
+    width: calc(100% - 90px);
+    float: right;
+}

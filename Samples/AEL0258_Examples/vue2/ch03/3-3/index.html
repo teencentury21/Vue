@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>範例3-3 編輯人員清單</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./page.css">
+</head>
+<body>
+
+    <div id="app">
+        姓名：<input type="text" v-model="name">
+        年齡：<input type="text" v-model="age">
+        <button v-on:click="add">新增</button>
+        <br/><br/>
+        <div v-for="(item, index) in list" v-bind:key="index">
+            姓名：{{ item.name }}
+            年齡：{{ item.age }}
+            <button v-on:click="remove(index)">刪除</button>
+        </div>
+    </div>
+
+    <!-- Vue.js 2.x -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <!-- Vue.js 主程式 -->
+    <script type="text/javascript" src="./app.js"></script>
+
+</body>
+</html>

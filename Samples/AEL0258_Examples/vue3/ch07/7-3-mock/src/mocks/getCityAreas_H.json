@@ -1,0 +1,57 @@
+{
+    "data":
+    [
+        {
+            "id": "H01",
+            "area_name": "桃園區"
+        },
+        {
+            "id": "H03",
+            "area_name": "中壢區"
+        },
+        {
+            "id": "H02",
+            "area_name": "大溪區"
+        },
+        {
+            "id": "H04",
+            "area_name": "楊梅區"
+        },
+        {
+            "id": "H05",
+            "area_name": "蘆竹區"
+        },
+        {
+            "id": "H06",
+            "area_name": "大園區"
+        },
+        {
+            "id": "H07",
+            "area_name": "龜山區"
+        },
+        {
+            "id": "H08",
+            "area_name": "八德區"
+        },
+        {
+            "id": "H09",
+            "area_name": "龍潭區"
+        },
+        {
+            "id": "H10",
+            "area_name": "平鎮區"
+        },
+        {
+            "id": "H11",
+            "area_name": "新屋區"
+        },
+        {
+            "id": "H12",
+            "area_name": "觀音區"
+        },
+        {
+            "id": "H13",
+            "area_name": "復興區"
+        }
+    ]
+}

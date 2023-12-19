@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>範例4-7 取得DOM更新後的高度</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./page.css">
+</head>
+
+<body>
+    <div id="app">
+        <button @click="list.push(list.length + 1)">追加</button>
+        <ul ref="ullist">
+            <li v-for="item in list">{{item}}</li>
+        </ul>
+    </div>
+
+    <!-- Vue.js 3.x -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.33/dist/vue.global.js"></script>
+    <!-- Vue.js 主程式 -->
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>

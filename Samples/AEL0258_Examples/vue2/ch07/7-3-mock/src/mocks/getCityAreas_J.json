@@ -1,0 +1,57 @@
+{
+    "data":
+    [
+        {
+            "id": "J05",
+            "area_name": "竹北市"
+        },
+        {
+            "id": "J02",
+            "area_name": "竹東鎮"
+        },
+        {
+            "id": "J04",
+            "area_name": "新埔鎮"
+        },
+        {
+            "id": "J03",
+            "area_name": "關西鎮"
+        },
+        {
+            "id": "J06",
+            "area_name": "湖口鄉"
+        },
+        {
+            "id": "J09",
+            "area_name": "新豐鄉"
+        },
+        {
+            "id": "J10",
+            "area_name": "芎林鄉"
+        },
+        {
+            "id": "J08",
+            "area_name": "橫山鄉"
+        },
+        {
+            "id": "J12",
+            "area_name": "北埔鄉"
+        },
+        {
+            "id": "J11",
+            "area_name": "寶山鄉"
+        },
+        {
+            "id": "J13",
+            "area_name": "峨眉鄉"
+        },
+        {
+            "id": "J14",
+            "area_name": "尖石鄉"
+        },
+        {
+            "id": "J15",
+            "area_name": "五峰鄉"
+        }
+    ]
+}

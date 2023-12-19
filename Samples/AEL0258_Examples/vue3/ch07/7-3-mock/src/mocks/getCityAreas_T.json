@@ -1,0 +1,137 @@
+{
+    "data":
+    [
+        {
+            "id": "T01",
+            "area_name": "屏東市"
+        },
+        {
+            "id": "T02",
+            "area_name": "潮州鎮"
+        },
+        {
+            "id": "T03",
+            "area_name": "東港鎮"
+        },
+        {
+            "id": "T04",
+            "area_name": "恆春鎮"
+        },
+        {
+            "id": "T05",
+            "area_name": "萬丹鄉"
+        },
+        {
+            "id": "T06",
+            "area_name": "長治鄉"
+        },
+        {
+            "id": "T07",
+            "area_name": "麟洛鄉"
+        },
+        {
+            "id": "T08",
+            "area_name": "九如鄉"
+        },
+        {
+            "id": "T09",
+            "area_name": "里港鄉"
+        },
+        {
+            "id": "T10",
+            "area_name": "鹽埔鄉"
+        },
+        {
+            "id": "T11",
+            "area_name": "高樹鄉"
+        },
+        {
+            "id": "T12",
+            "area_name": "萬巒鄉"
+        },
+        {
+            "id": "T13",
+            "area_name": "內埔鄉"
+        },
+        {
+            "id": "T14",
+            "area_name": "竹田鄉"
+        },
+        {
+            "id": "T15",
+            "area_name": "新埤鄉"
+        },
+        {
+            "id": "T16",
+            "area_name": "枋寮鄉"
+        },
+        {
+            "id": "T17",
+            "area_name": "新園鄉"
+        },
+        {
+            "id": "T18",
+            "area_name": "崁頂鄉"
+        },
+        {
+            "id": "T19",
+            "area_name": "林邊鄉"
+        },
+        {
+            "id": "T20",
+            "area_name": "南州鄉"
+        },
+        {
+            "id": "T21",
+            "area_name": "佳冬鄉"
+        },
+        {
+            "id": "T22",
+            "area_name": "琉球鄉"
+        },
+        {
+            "id": "T23",
+            "area_name": "車城鄉"
+        },
+        {
+            "id": "T24",
+            "area_name": "滿州鄉"
+        },
+        {
+            "id": "T25",
+            "area_name": "枋山鄉"
+        },
+        {
+            "id": "T26",
+            "area_name": "三地門鄉"
+        },
+        {
+            "id": "T27",
+            "area_name": "霧臺鄉"
+        },
+        {
+            "id": "T28",
+            "area_name": "瑪家鄉"
+        },
+        {
+            "id": "T29",
+            "area_name": "泰武鄉"
+        },
+        {
+            "id": "T30",
+            "area_name": "來義鄉"
+        },
+        {
+            "id": "T31",
+            "area_name": "春日鄉"
+        },
+        {
+            "id": "T32",
+            "area_name": "獅子鄉"
+        },
+        {
+            "id": "T33",
+            "area_name": "牡丹鄉"
+        }
+    ]
+}

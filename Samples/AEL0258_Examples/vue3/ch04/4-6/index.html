@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>範例4-6 格式化電話/手機號碼顯示 - Vue.js 3.x 改寫</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./page.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- 使用 Option API - computed 方式改寫 -->
+        手機：{{ formatedPhone }} <br/>
+        <!-- 直接以 jsvascript 表示式以 method 轉換 -->
+        電話：{{ telFormater(tel) }}
+    </div>
+
+    <!-- Vue.js 3.x -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.33/dist/vue.global.js"></script>
+    <!-- Vue.js 主程式 -->
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>

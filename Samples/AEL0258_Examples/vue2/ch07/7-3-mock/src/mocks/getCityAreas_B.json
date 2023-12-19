@@ -1,0 +1,121 @@
+{
+    "data":
+    [
+        {
+            "id": "B01",
+            "area_name": "中區"
+        },
+        {
+            "id": "B02",
+            "area_name": "東區"
+        },
+        {
+            "id": "B03",
+            "area_name": "南區"
+        },
+        {
+            "id": "B04",
+            "area_name": "西區"
+        },
+        {
+            "id": "B05",
+            "area_name": "北區"
+        },
+        {
+            "id": "B06",
+            "area_name": "西屯區"
+        },
+        {
+            "id": "B07",
+            "area_name": "南屯區"
+        },
+        {
+            "id": "B08",
+            "area_name": "北屯區"
+        },
+        {
+            "id": "B09",
+            "area_name": "豐原區"
+        },
+        {
+            "id": "B10",
+            "area_name": "東勢區"
+        },
+        {
+            "id": "B11",
+            "area_name": "大甲區"
+        },
+        {
+            "id": "B12",
+            "area_name": "清水區"
+        },
+        {
+            "id": "B13",
+            "area_name": "沙鹿區"
+        },
+        {
+            "id": "B14",
+            "area_name": "梧棲區"
+        },
+        {
+            "id": "B15",
+            "area_name": "后里區"
+        },
+        {
+            "id": "B16",
+            "area_name": "神岡區"
+        },
+        {
+            "id": "B17",
+            "area_name": "潭子區"
+        },
+        {
+            "id": "B18",
+            "area_name": "大雅區"
+        },
+        {
+            "id": "B19",
+            "area_name": "新社區"
+        },
+        {
+            "id": "B20",
+            "area_name": "石岡區"
+        },
+        {
+            "id": "B21",
+            "area_name": "外埔區"
+        },
+        {
+            "id": "B22",
+            "area_name": "大安區"
+        },
+        {
+            "id": "B23",
+            "area_name": "烏日區"
+        },
+        {
+            "id": "B24",
+            "area_name": "大肚區"
+        },
+        {
+            "id": "B25",
+            "area_name": "龍井區"
+        },
+        {
+            "id": "B26",
+            "area_name": "霧峰區"
+        },
+        {
+            "id": "B27",
+            "area_name": "太平區"
+        },
+        {
+            "id": "B28",
+            "area_name": "大里區"
+        },
+        {
+            "id": "B29",
+            "area_name": "和平區"
+        }
+    ]
+}

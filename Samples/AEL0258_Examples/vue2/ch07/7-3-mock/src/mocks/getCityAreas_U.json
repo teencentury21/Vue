@@ -1,0 +1,57 @@
+{
+    "data":
+    [
+        {
+            "id": "U01",
+            "area_name": "花蓮市"
+        },
+        {
+            "id": "U07",
+            "area_name": "鳳林鎮"
+        },
+        {
+            "id": "U03",
+            "area_name": "玉里鎮"
+        },
+        {
+            "id": "U04",
+            "area_name": "新城鄉"
+        },
+        {
+            "id": "U05",
+            "area_name": "吉安鄉"
+        },
+        {
+            "id": "U06",
+            "area_name": "壽豐鄉"
+        },
+        {
+            "id": "U02",
+            "area_name": "光復鄉"
+        },
+        {
+            "id": "U08",
+            "area_name": "豐濱鄉"
+        },
+        {
+            "id": "U09",
+            "area_name": "瑞穗鄉"
+        },
+        {
+            "id": "U10",
+            "area_name": "富里鄉"
+        },
+        {
+            "id": "U11",
+            "area_name": "秀林鄉"
+        },
+        {
+            "id": "U12",
+            "area_name": "萬榮鄉"
+        },
+        {
+            "id": "U13",
+            "area_name": "卓溪鄉"
+        }
+    ]
+}

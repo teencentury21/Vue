@@ -1,0 +1,12 @@
+li {
+    width: 250px;
+    height: 40px;
+}
+
+li button {
+    float: right;
+}
+
+button {
+    margin-left: 10px;
+}

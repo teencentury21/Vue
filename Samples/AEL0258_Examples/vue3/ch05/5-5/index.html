@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>範例5-5 活動報名表單 </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./page.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div id="app">
+        <h4>活動報名表單</h4>
+        <form>
+            <text-field
+                column-id="full-name"
+                column-name="姓名"
+                :model-value="form.fullName"
+                @update:model-value="newValue => form.fullName = newValue"
+                placeholder="請輸入您的姓名"
+            ></text-field>
+            <radio-box
+                column-id="gender"
+                column-name="性別"
+                :items="gender"
+                v-model="form.gender"
+            ></radio-box>
+            <text-field
+                column-id="tel"
+                column-name="聯絡電話"
+                v-model="form.tel"
+                placeholder="電話格式：(xx)xxxx-xxxx"
+            ></text-field>
+            <check-box
+                column-id="willingness"
+                column-name="想參加的活動"
+                v-model="form.willingness"
+                :items="activities"
+            ></check-box>
+            <select-field
+                column-id="transportation"
+                column-name="交通方式"
+                v-model="form.transportation"
+                :items="transportations"
+            ></select-field>
+
+            <button type="button" class="btn btn-primary" @click="send">送出</button>
+        </form>
+
+        <div class="form-info" v-if="show">
+            送出表單資訊：
+            <ul>
+                <li>姓名：{{ show.fullName }}</li>
+                <li>性別：{{ show.gender }}</li>
+                <li>聯絡電話：{{ show.tel }}</li>
+                <li>想參加的活動：{{ show.willingness.join(',') }}</li>
+                <li>交通方式：{{ show.transportation }}</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.12.1/polyfill.min.js"></script>
+
+    <!-- Vue.js 3.x -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.33/dist/vue.global.js"></script>
+    <!-- SFC Loader -->
+    <script src="https://cdn.jsdelivr.net/npm/vue3-sfc-loader/dist/vue3-sfc-loader.js"></script>
+    <!-- Vue.js 主程式 -->
+    <script type="text/javascript" src="./sfc-setting.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example 3-2-basic-form 基礎表單操作</title>
+    <meta charset="utf-8">
+    <link href="./page.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="app">
+        <!-- 單選選單 -->
+        <select v-model="selectValue" multiple>
+            <option value="">請選擇</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+
+        <p>
+            多選選單：{{ selectValue }}
+        </p>
+    </div>
+
+    <!-- Vue.js 3.x -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.33/dist/vue.global.js"></script>
+    <!-- Vue.js 主程式 -->
+    <script type="text/javascript" src="./app.js"></script>
+
+</body>
+</html>

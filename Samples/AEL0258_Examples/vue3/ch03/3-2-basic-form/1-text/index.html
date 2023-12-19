@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example 3-2-basic-form 基礎表單操作</title>
+    <meta charset="utf-8">
+    <link href="./page.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="app">
+        <!-- 單行文字 -->
+        <input type="text" v-model="message">
+
+        <p>
+            單行文字：{{ message }}
+        </p>
+    </div>
+
+    <!-- Vue.js 3.x -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.33/dist/vue.global.js"></script>
+    <!-- Vue.js 主程式 -->
+    <script type="text/javascript" src="./app.js"></script>
+
+</body>
+</html>

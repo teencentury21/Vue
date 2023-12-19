@@ -1,0 +1,53 @@
+{
+    "data":
+    [
+        {
+            "id": "A01",
+            "area_name": "松山區"
+        },
+        {
+            "id": "A17",
+            "area_name": "信義區"
+        },
+        {
+            "id": "A02",
+            "area_name": "大安區"
+        },
+        {
+            "id": "A10",
+            "area_name": "中山區"
+        },
+        {
+            "id": "A03",
+            "area_name": "中正區"
+        },
+        {
+            "id": "A09",
+            "area_name": "大同區"
+        },
+        {
+            "id": "A05",
+            "area_name": "萬華區"
+        },
+        {
+            "id": "A11",
+            "area_name": "文山區"
+        },
+        {
+            "id": "A13",
+            "area_name": "南港區"
+        },
+        {
+            "id": "A14",
+            "area_name": "內湖區"
+        },
+        {
+            "id": "A15",
+            "area_name": "士林區"
+        },
+        {
+            "id": "A16",
+            "area_name": "北投區"
+        }
+    ]
+}

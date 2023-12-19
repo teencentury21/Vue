@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>範例4-2 人員資料資訊顯示</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./page.css">
+</head>
+
+<body>
+
+    <div id="app">
+        <div>姓：<input type="text" v-model="lastName"></div>
+        <div>名：<input type="text" v-model="firstName"></div>
+        <div>郵遞區號：<input type="text" v-model="postNo"></div>
+        <div>縣市：<input type="text" v-model="city"></div>
+        <div>區域：<input type="text" v-model="area"></div>
+        <div>址址：<input type="text" v-model="address"></div>
+        <ul>
+            <li>全名：<input type="text" v-model="fullName"></li>
+            <li>完整地址：{{ fullAddress }}</li>
+        </ul>
+    </div>
+
+    <!-- Vue.js 3.x -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.33/dist/vue.global.js"></script>
+    <!-- Vue.js 主程式 -->
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>
